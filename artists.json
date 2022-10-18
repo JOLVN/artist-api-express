@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Roohna",
+        "type": "Rap",
+        "description": "blablabla"
+    },
+    {
+        "id": 2,
+        "name": "Solalune",
+        "type": "Rap",
+        "description": "blablabla"
+    },
+    {
+        "id": 3,
+        "name": "Rone",
+        "type": "Electro",
+        "description": "blablabla"
+    },
+    {
+        "id": 4,
+        "name": "Frank Ocean",
+        "type": "Pop",
+        "description": "blablabla"
+    },
+    {
+        "id": 5,
+        "name": "Tyler, the creator",
+        "type": "Rap",
+        "description": "blablabla"
+    },
+    {
+        "id": 6,
+        "name": "Thylacine",
+        "type": "Rap",
+        "description": "blablabla"
+    }
+]
