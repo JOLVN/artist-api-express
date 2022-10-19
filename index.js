@@ -17,10 +17,12 @@ const errors = {
 }
 
 
+// Get all elements
 const getElements = (req, res, datas) => {
     res.status(200).json(datas)
 }
 
+// Get one element
 const getElement = (req, res, datas) => {
     const id = Number(req.params.id)
     if (!id) {
@@ -34,6 +36,7 @@ const getElement = (req, res, datas) => {
     res.status(200).json(element)
 }
 
+// Add an element
 const addElement = (req, res, datas) => {
     const id = Number(req.body.id)
     if (!id) {
@@ -53,6 +56,8 @@ const addElement = (req, res, datas) => {
     }
 }
 
+
+// Edit an element
 const editElement = (req, res, datas) => {
     const id = Number(req.params.id)
     if (!id) {
@@ -73,6 +78,8 @@ const editElement = (req, res, datas) => {
     }
 }
 
+
+// Delete an element
 const deleteElement = (req, res, datas) => {
     const id = Number(req.params.id)
     if (!id) {
@@ -89,7 +96,6 @@ const deleteElement = (req, res, datas) => {
 }
 
 // Artists
-
 app.get('/artists', (req, res) => {
     getElements(req, res, artists)
 })
