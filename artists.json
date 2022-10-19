@@ -2,37 +2,91 @@
     {
         "id": 1,
         "name": "Roohna",
-        "type": "Rap",
+        "category": {
+            "id": 1,
+            "title": "Rap",
+            "description": "Voluptate reprehenderit excepteur nisi commodo sunt tempor adipisicing consequat est aliqua ex est fugiat. Reprehenderit adipisicing fugiat sunt exercitation. Et officia cupidatat officia nisi excepteur reprehenderit consectetur duis duis. Enim incididunt tempor exercitation aliqua dolor ea ea non velit sit mollit proident culpa dolore. Eiusmod nostrud sit eiusmod nostrud irure pariatur. Minim sint aliqua adipisicing cupidatat anim est esse ad irure ullamco aliqua ullamco laborum reprehenderit."
+        },
+        "_links": {
+            "records": {
+                "href": "http://localhost:3005/records/2"
+            }
+        },
         "description": "blablabla"
     },
     {
         "id": 2,
         "name": "Solalune",
-        "type": "Rap",
+        "category": {
+            "id": 1,
+            "title": "Rap",
+            "description": "Voluptate reprehenderit excepteur nisi commodo sunt tempor adipisicing consequat est aliqua ex est fugiat. Reprehenderit adipisicing fugiat sunt exercitation. Et officia cupidatat officia nisi excepteur reprehenderit consectetur duis duis. Enim incididunt tempor exercitation aliqua dolor ea ea non velit sit mollit proident culpa dolore. Eiusmod nostrud sit eiusmod nostrud irure pariatur. Minim sint aliqua adipisicing cupidatat anim est esse ad irure ullamco aliqua ullamco laborum reprehenderit."
+        },
+        "_links": {
+            "records": {
+                "href": "http://localhost:3005/records/1"
+            }
+        },
         "description": "blablabla"
     },
     {
         "id": 3,
         "name": "Rone",
-        "type": "Electro",
+        "category": {
+            "id": 2,
+            "title": "Electro",
+            "description": "Incididunt ut exercitation dolore labore et. Ullamco voluptate dolor qui laborum ut do ex velit qui cupidatat velit reprehenderit. Fugiat duis esse esse in adipisicing enim dolore ad ea. Cupidatat dolor veniam fugiat mollit mollit duis ex dolor sint."
+        },
+        "_links": {
+            "records": {
+                "href": "http://localhost:3005/records/2"
+            }
+        },
         "description": "blablabla"
     },
     {
         "id": 4,
         "name": "Frank Ocean",
-        "type": "Pop",
+        "category": {
+            "id": 1,
+            "title": "Rap",
+            "description": "Voluptate reprehenderit excepteur nisi commodo sunt tempor adipisicing consequat est aliqua ex est fugiat. Reprehenderit adipisicing fugiat sunt exercitation. Et officia cupidatat officia nisi excepteur reprehenderit consectetur duis duis. Enim incididunt tempor exercitation aliqua dolor ea ea non velit sit mollit proident culpa dolore. Eiusmod nostrud sit eiusmod nostrud irure pariatur. Minim sint aliqua adipisicing cupidatat anim est esse ad irure ullamco aliqua ullamco laborum reprehenderit."
+        },
+        "_links": {
+            "records": {
+                "href": "http://localhost:3005/records/1"
+            }
+        },
         "description": "blablabla"
     },
     {
         "id": 5,
         "name": "Tyler, the creator",
-        "type": "Rap",
+        "category": {
+            "id": 1,
+            "title": "Rap",
+            "description": "Voluptate reprehenderit excepteur nisi commodo sunt tempor adipisicing consequat est aliqua ex est fugiat. Reprehenderit adipisicing fugiat sunt exercitation. Et officia cupidatat officia nisi excepteur reprehenderit consectetur duis duis. Enim incididunt tempor exercitation aliqua dolor ea ea non velit sit mollit proident culpa dolore. Eiusmod nostrud sit eiusmod nostrud irure pariatur. Minim sint aliqua adipisicing cupidatat anim est esse ad irure ullamco aliqua ullamco laborum reprehenderit."
+        },
+        "_links": {
+            "records": {
+                "href": "http://localhost:3005/records/2"
+            }
+        },
         "description": "blablabla"
     },
     {
         "id": 6,
         "name": "Thylacine",
-        "type": "Rap",
+        "category": {
+            "id": 2,
+            "title": "Electro",
+            "description": "Incididunt ut exercitation dolore labore et. Ullamco voluptate dolor qui laborum ut do ex velit qui cupidatat velit reprehenderit. Fugiat duis esse esse in adipisicing enim dolore ad ea. Cupidatat dolor veniam fugiat mollit mollit duis ex dolor sint."
+        },
+        "_links": {
+            "records": {
+                "href": "http://localhost:3005/records/2"
+            }
+        },
         "description": "blablabla"
     }
 ]
